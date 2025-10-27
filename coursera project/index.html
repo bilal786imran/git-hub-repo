@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Bilal Imran | Web Developer Portfolio - Projects, Skills & Recommendations
+    </title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+      }
+
+      /* Navbar styling */
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: #333;
+        color: white;
+      }
+      nav .logo {
+        font-size: 24px;
+        font-weight: bold;
+      }
+      nav ul {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+      }
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+        transition: all 0.3s;
+      }
+      nav ul li a:hover {
+        text-decoration: underline;
+        font-weight: bold;
+        color: #ffcc00;
+      }
+
+      /* Sections */
+      section {
+        padding: 40px 20px;
+        background: white;
+        margin: 20px;
+        border-radius: 12px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .about {
+        text-align: center;
+      }
+
+      .about img {
+        width: 150px;
+        border-radius: 50%;
+        margin-bottom: 15px;
+      }
+
+      .skills,
+      .projects,
+      .recommendations {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .skills div,
+      .projects div,
+      .recommendations div {
+        border: 1px solid #ccc;
+        padding: 15px;
+        width: 220px;
+        text-align: center;
+        border-radius: 10px;
+        background-color: #fafafa;
+      }
+
+      .skills div img {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 10px;
+      }
+
+      .projects div img {
+        width: 100%;
+        height: 140px;
+        object-fit: cover;
+        border-radius: 8px;
+        margin-bottom: 10px;
+      }
+
+      form {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+      }
+
+      form input {
+        padding: 10px;
+        width: 250px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+      }
+
+      form button {
+        padding: 10px 15px;
+        background-color: #333;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+
+      form button:hover {
+        background-color: #ffcc00;
+        color: black;
+      }
+
+      .home-icon {
+        font-size: 24px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <div class="logo">Bilal Imran</div>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Project Details</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#recommendations">Recommendations</a></li>
+      </ul>
+      <div class="home-icon">🏠</div>
+    </nav>
+
+    <!-- About Me Section -->
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <img
+        src="https://images.unsplash.com/photo-1603415526960-f7e0328c63b1?w=400&h=400&fit=crop"
+        alt="Profile Image"
+      />
+      <p>
+        Hello! I’m Bilal Imran, a passionate web developer who loves creating
+        interactive and visually appealing websites. My focus is on crafting
+        clean, user-friendly experiences that bring ideas to life through code.
+      </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <h2>Skills</h2>
+      <div>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
+          alt="HTML Logo"
+        />
+        <p>HTML5</p>
+      </div>
+      <div>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
+          alt="CSS Logo"
+        />
+        <p>CSS3</p>
+      </div>
+      <div>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+          alt="JavaScript Logo"
+        />
+        <p>JavaScript</p>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+      <div>
+        <img
+          src="https://images.unsplash.com/photo-1556761175-4b46a572b786?w=600&h=400&fit=crop"
+          alt="Project 1"
+        />
+        <h3>Portfolio Website</h3>
+        <p>
+          A responsive and SEO-friendly portfolio website showcasing my work and
+          skills.
+        </p>
+      </div>
+      <div>
+        <img
+          src="https://images.unsplash.com/photo-1688561808434-886a6dd97b8c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=870"
+          alt="Project 2"
+        />
+        <h3>E-commerce Store</h3>
+        <p>
+          Developed a dynamic store with product filtering, cart functionality,
+          and secure checkout.
+        </p>
+      </div>
+      <div>
+        <img
+          src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600&h=400&fit=crop"
+          alt="Project 3"
+        />
+        <h3>Task Manager App</h3>
+        <p>
+          A React-based app that allows users to manage daily tasks and monitor
+          productivity.
+        </p>
+      </div>
+    </section>
+
+    <!-- Recommendations Section -->
+    <section id="recommendations" class="recommendations">
+      <h2>Recommendations</h2>
+      <div>
+        <p>
+          “Bilal is a creative developer with excellent problem-solving skills.”
+        </p>
+        <p>- Sarah Khan</p>
+      </div>
+      <div>
+        <p>“A true professional — highly skilled in frontend technologies.”</p>
+        <p>- Ahmed Ali</p>
+      </div>
+      <div>
+        <p>“His attention to detail and design sense are outstanding!”</p>
+        <p>- Fatima Noor</p>
+      </div>
+
+      <!-- Add Recommendation Form -->
+      <form id="add-recommendation">
+        <input type="text" placeholder="Enter your recommendation" required />
+        <input type="text" placeholder="Your name" required />
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <script>
+      // Handle form submission with pop-up confirmation
+      const form = document.getElementById("add-recommendation");
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        const recList = document.querySelector(".recommendations");
+        const recommendation = document.createElement("div");
+        recommendation.innerHTML = `<p>“${form[0].value}”</p><p>- ${form[1].value}</p>`;
+        recList.appendChild(recommendation);
+        alert("Recommendation submitted successfully!");
+        form.reset();
+      });
+    </script>
+  </body>
+</html>
